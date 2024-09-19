@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For assesment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+    200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,
+    600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body  >
+    <header class="p-3 font-bold text-xl ">
+        <div class="flex ml-12 mt-5 sm:ml-6 sm:mt-3 md:ml-8 md:mt-4 lg:ml-12 lg:mt-5">
+    
+            <p>Overview</p>
+            <svg class="m-1.5 text-center" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M9 13.2373V8.76271C9 8.01386 8.39292 7.40678 7.64407 7.40678H7.30508M7.30508 13.2712H9H10.6949M1 9C1 4.58173 4.58173 1 9 1C13.4183 1 17 4.58173 17 9C17 13.4183 13.4183 17 9 17C4.58173 17 1 13.4183 1 9Z"
+                    stroke="#464646" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <circle cx="8.66461" cy="4.66614" r="1" fill="#464646" />
+            </svg>
+        </div>
+        <br>
+        <div class="flex gap-4 justify-around">
+            <div class="w-[282px]  top-[72px] left-[27px] gap-[10px] p-4 pr-12 pl-0 bg-gray-100 rounded-2xl">
+
+                <div class="flex ml-4 items-center justify-between">
+                    <svg class="mt-1.4 mr-2" width="20" height="27" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.86297 7.28997L5.06766 8.60416L4.17297 7.12575" stroke="#FF6900"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <mask id="mask0_1_1824" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="16" height="16">
+                            <path d="M0 0H16V16H0V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_1_1824)">
+                            <path
+                                d="M7.00422 2.89202C6.8985 1.91602 6.07184 1.15627 5.06772 1.15627C3.99191 1.15627 3.11981 2.02836 3.11981 3.10417C3.11981 3.43602 3.38881 3.70502 3.72062 3.70502H6.02094"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M3.11981 3.0944V4.66669C3.11981 5.7425 3.99191 6.61462 5.06772 6.61462C5.35103 6.61462 5.62019 6.55416 5.86303 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M4.26562 6.4605V7.11456H4.18422C2.04594 7.11456 0.3125 8.84797 0.3125 10.9863V12.1562H3.05416"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M10.137 7.28997L10.9323 8.60416L11.827 7.12575" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.00781 2.80117C9.15337 1.86927 9.95956 1.15627 10.9323 1.15627C12.0081 1.15627 12.8802 2.02839 12.8802 3.10417C12.8802 3.43602 12.6112 3.70502 12.2794 3.70502H10.1979"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M12.8802 3.0944V4.66669C12.8802 5.7425 12.0081 6.61462 10.9323 6.61462C10.649 6.61462 10.3798 6.55416 10.137 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M11.7344 6.4605V7.11456H11.8158C13.9541 7.11456 15.6875 8.84797 15.6875 10.9863V12.1562H12.9458"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M10.125 2.84374H7.38422C6.55072 2.84374 5.875 3.51946 5.875 4.35296V5.62421H8.67075C9.47391 5.62421 10.125 4.97311 10.125 4.16993V2.84374Z"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M9.40625 14.8438H13.1875V13.5674C13.1875 11.2348 11.2965 9.34375 8.96381 9.34375H8.875V8.63022"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M7.125 8.63022V9.34375H7.03619C4.7035 9.34375 2.8125 11.2348 2.8125 13.5674V14.8438H6.59375"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8.97605 9.35597L8.00002 10.9688L7.02399 9.35597" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.875 4.95809V6.67334C5.875 7.84693 6.82641 8.79834 8 8.79834C9.17359 8.79834 10.125 7.84693 10.125 6.67334V4.15834"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M5.92087 7.11456H5.86981V6.4605" stroke="#FF6900" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+                    <p>Audience</p>
+                    <svg class="m-1.5 text-center" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 13.2373V8.76271C9 8.01386 8.39292 7.40678 7.64407 7.40678H7.30508M7.30508 13.2712H9H10.6949M1 9C1 4.58173 4.58173 1 9 1C13.4183 1 17 4.58173 17 9C17 13.4183 13.4183 17 9 17C4.58173 17 1 13.4183 1 9Z"
+                            stroke="#464646" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <circle cx="8.66461" cy="4.66614" r="1" fill="#464646" />
+                    </svg>
+
+                    <svg class="ml-10" width="30" height="30" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 13H20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13 6L20 13L13 20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="flex gap-9 ml-4 items-center justify-between">
+                    <h1 class="font-size text-3xl mt-2">1.2M</h1>
+                    <svg class="mt-4 ml-2" width="104" height="28" viewBox="0 0 104 28" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M102 26.4143C102 26.4143 98.5451 20.7513 95.0898 20.7513C91.6345 20.7513 92.4023 26.4148 88.1786 26.4148C83.9549 26.4148 83.1235 24.8449 78.1965 20.7518C73.2695 16.6587 74.1008 9.66462 68.47 10.0304C62.8392 10.4046 61.5591 23.5832 55.6723 22.245C49.7856 20.9068 49.209 8.17331 44.9223 4.67071C40.6344 1.17305 42.3624 8.8384 38.5231 8.24022C34.6838 7.65058 34.3645 0.496589 29.5648 2.28673C24.765 4.07686 23.8056 13.4558 19.3267 15.3922C14.8475 17.3329 17.8523 10.1922 12.7066 10.2998C6.52638 10.4009 8.98811 4.18047 2.0332 4.67124"
+                            stroke="#5C6BC0" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="flex items-center ml-4">
+                    <svg class="mt-2" width="36" height="36" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="8" fill="#EAF3E4" />
+                        <path
+                            d="M9.63729 5.44028L10.2997 6.18554L8.05536 8.70993L6.54397 7.00882C6.50194 6.96096 6.45146 6.92287 6.39557 6.89685C6.33968 6.87083 6.27955 6.85742 6.21878 6.85742C6.15801 6.85742 6.09787 6.87083 6.04198 6.89685C5.9861 6.92287 5.93562 6.96096 5.89359 7.00882L3.13446 10.1186C3.04817 10.2168 3 10.3476 3 10.4836C3 10.6196 3.04817 10.7504 3.13446 10.8486C3.17649 10.8965 3.22697 10.9345 3.28286 10.9606C3.33875 10.9866 3.39889 11 3.45965 11C3.52042 11 3.58056 10.9866 3.63645 10.9606C3.69234 10.9345 3.74282 10.8965 3.78485 10.8486L6.21728 8.10489L7.73017 9.80818C7.7722 9.85604 7.82268 9.89413 7.87856 9.92015C7.93445 9.94617 7.99459 9.95958 8.05536 9.95958C8.11613 9.95958 8.17627 9.94617 8.23215 9.92015C8.28804 9.89413 8.33852 9.85604 8.38055 9.80818L10.9466 6.92044L11.6089 7.6657C11.6412 7.70104 11.6824 7.72504 11.7272 7.73461C11.772 7.74418 11.8185 7.73887 11.8605 7.71937C11.9026 7.69988 11.9383 7.66709 11.9631 7.62524C11.9879 7.58338 12.0007 7.53438 11.9997 7.48456V5.2586C12.0013 5.22537 11.9967 5.19212 11.9862 5.16088C11.9757 5.12964 11.9594 5.10106 11.9385 5.07687C11.9175 5.05268 11.8923 5.0334 11.8643 5.02018C11.8362 5.00697 11.8061 5.0001 11.7755 5H9.80289C9.75659 5.00116 9.71161 5.01702 9.67345 5.04563C9.63529 5.07424 9.60561 5.11436 9.58804 5.16108C9.57047 5.2078 9.56577 5.25909 9.57451 5.30868C9.58326 5.35827 9.60508 5.404 9.63729 5.44028Z"
+                            fill="#519F2E" />
+                    </svg>
+                    <p style="color: #519F2E;" class="">25%</p>
+                </div>
+            </div>
+            <div class="w-[282px]  top-[72px] left-[27px] gap-[10px] p-4 pr-12 pl-0 bg-gray-100 rounded-2xl">
+
+                <div class="flex ml-4 items-center justify-between">
+                    <svg class="mt-1.4 mr-2" width="20" height="27" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.86297 7.28997L5.06766 8.60416L4.17297 7.12575" stroke="#FF6900"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <mask id="mask0_1_1824" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="16" height="16">
+                            <path d="M0 0H16V16H0V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_1_1824)">
+                            <path
+                                d="M7.00422 2.89202C6.8985 1.91602 6.07184 1.15627 5.06772 1.15627C3.99191 1.15627 3.11981 2.02836 3.11981 3.10417C3.11981 3.43602 3.38881 3.70502 3.72062 3.70502H6.02094"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M3.11981 3.0944V4.66669C3.11981 5.7425 3.99191 6.61462 5.06772 6.61462C5.35103 6.61462 5.62019 6.55416 5.86303 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M4.26562 6.4605V7.11456H4.18422C2.04594 7.11456 0.3125 8.84797 0.3125 10.9863V12.1562H3.05416"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M10.137 7.28997L10.9323 8.60416L11.827 7.12575" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.00781 2.80117C9.15337 1.86927 9.95956 1.15627 10.9323 1.15627C12.0081 1.15627 12.8802 2.02839 12.8802 3.10417C12.8802 3.43602 12.6112 3.70502 12.2794 3.70502H10.1979"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M12.8802 3.0944V4.66669C12.8802 5.7425 12.0081 6.61462 10.9323 6.61462C10.649 6.61462 10.3798 6.55416 10.137 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M11.7344 6.4605V7.11456H11.8158C13.9541 7.11456 15.6875 8.84797 15.6875 10.9863V12.1562H12.9458"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M10.125 2.84374H7.38422C6.55072 2.84374 5.875 3.51946 5.875 4.35296V5.62421H8.67075C9.47391 5.62421 10.125 4.97311 10.125 4.16993V2.84374Z"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M9.40625 14.8438H13.1875V13.5674C13.1875 11.2348 11.2965 9.34375 8.96381 9.34375H8.875V8.63022"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M7.125 8.63022V9.34375H7.03619C4.7035 9.34375 2.8125 11.2348 2.8125 13.5674V14.8438H6.59375"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8.97605 9.35597L8.00002 10.9688L7.02399 9.35597" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.875 4.95809V6.67334C5.875 7.84693 6.82641 8.79834 8 8.79834C9.17359 8.79834 10.125 7.84693 10.125 6.67334V4.15834"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M5.92087 7.11456H5.86981V6.4605" stroke="#FF6900" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+                    <p>Audience</p>
+                    <svg class="m-1.5 text-center" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 13.2373V8.76271C9 8.01386 8.39292 7.40678 7.64407 7.40678H7.30508M7.30508 13.2712H9H10.6949M1 9C1 4.58173 4.58173 1 9 1C13.4183 1 17 4.58173 17 9C17 13.4183 13.4183 17 9 17C4.58173 17 1 13.4183 1 9Z"
+                            stroke="#464646" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <circle cx="8.66461" cy="4.66614" r="1" fill="#464646" />
+                    </svg>
+
+                    <svg class="ml-10" width="30" height="30" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 13H20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13 6L20 13L13 20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="flex gap-9 ml-4 items-center justify-between">
+                    <h1 class="font-size text-3xl mt-2">1.2M</h1>
+                    <svg class="mt-4 ml-2" width="104" height="28" viewBox="0 0 104 28" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M102 26.4143C102 26.4143 98.5451 20.7513 95.0898 20.7513C91.6345 20.7513 92.4023 26.4148 88.1786 26.4148C83.9549 26.4148 83.1235 24.8449 78.1965 20.7518C73.2695 16.6587 74.1008 9.66462 68.47 10.0304C62.8392 10.4046 61.5591 23.5832 55.6723 22.245C49.7856 20.9068 49.209 8.17331 44.9223 4.67071C40.6344 1.17305 42.3624 8.8384 38.5231 8.24022C34.6838 7.65058 34.3645 0.496589 29.5648 2.28673C24.765 4.07686 23.8056 13.4558 19.3267 15.3922C14.8475 17.3329 17.8523 10.1922 12.7066 10.2998C6.52638 10.4009 8.98811 4.18047 2.0332 4.67124"
+                            stroke="#5C6BC0" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="flex items-center ml-4">
+                    <svg class="mt-2" width="36" height="36" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="8" fill="#EAF3E4" />
+                        <path
+                            d="M9.63729 5.44028L10.2997 6.18554L8.05536 8.70993L6.54397 7.00882C6.50194 6.96096 6.45146 6.92287 6.39557 6.89685C6.33968 6.87083 6.27955 6.85742 6.21878 6.85742C6.15801 6.85742 6.09787 6.87083 6.04198 6.89685C5.9861 6.92287 5.93562 6.96096 5.89359 7.00882L3.13446 10.1186C3.04817 10.2168 3 10.3476 3 10.4836C3 10.6196 3.04817 10.7504 3.13446 10.8486C3.17649 10.8965 3.22697 10.9345 3.28286 10.9606C3.33875 10.9866 3.39889 11 3.45965 11C3.52042 11 3.58056 10.9866 3.63645 10.9606C3.69234 10.9345 3.74282 10.8965 3.78485 10.8486L6.21728 8.10489L7.73017 9.80818C7.7722 9.85604 7.82268 9.89413 7.87856 9.92015C7.93445 9.94617 7.99459 9.95958 8.05536 9.95958C8.11613 9.95958 8.17627 9.94617 8.23215 9.92015C8.28804 9.89413 8.33852 9.85604 8.38055 9.80818L10.9466 6.92044L11.6089 7.6657C11.6412 7.70104 11.6824 7.72504 11.7272 7.73461C11.772 7.74418 11.8185 7.73887 11.8605 7.71937C11.9026 7.69988 11.9383 7.66709 11.9631 7.62524C11.9879 7.58338 12.0007 7.53438 11.9997 7.48456V5.2586C12.0013 5.22537 11.9967 5.19212 11.9862 5.16088C11.9757 5.12964 11.9594 5.10106 11.9385 5.07687C11.9175 5.05268 11.8923 5.0334 11.8643 5.02018C11.8362 5.00697 11.8061 5.0001 11.7755 5H9.80289C9.75659 5.00116 9.71161 5.01702 9.67345 5.04563C9.63529 5.07424 9.60561 5.11436 9.58804 5.16108C9.57047 5.2078 9.56577 5.25909 9.57451 5.30868C9.58326 5.35827 9.60508 5.404 9.63729 5.44028Z"
+                            fill="#519F2E" />
+                    </svg>
+                    <p style="color: #519F2E;" class="">25%</p>
+                </div>
+            </div>
+            <div class="w-[282px]  top-[72px] left-[27px] gap-[10px] p-4 pr-12 pl-0 bg-gray-100 rounded-2xl">
+
+                <div class="flex ml-4 items-center justify-between">
+                    <svg class="mt-1.4 mr-2" width="20" height="27" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.86297 7.28997L5.06766 8.60416L4.17297 7.12575" stroke="#FF6900"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <mask id="mask0_1_1824" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="16" height="16">
+                            <path d="M0 0H16V16H0V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_1_1824)">
+                            <path
+                                d="M7.00422 2.89202C6.8985 1.91602 6.07184 1.15627 5.06772 1.15627C3.99191 1.15627 3.11981 2.02836 3.11981 3.10417C3.11981 3.43602 3.38881 3.70502 3.72062 3.70502H6.02094"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M3.11981 3.0944V4.66669C3.11981 5.7425 3.99191 6.61462 5.06772 6.61462C5.35103 6.61462 5.62019 6.55416 5.86303 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M4.26562 6.4605V7.11456H4.18422C2.04594 7.11456 0.3125 8.84797 0.3125 10.9863V12.1562H3.05416"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M10.137 7.28997L10.9323 8.60416L11.827 7.12575" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.00781 2.80117C9.15337 1.86927 9.95956 1.15627 10.9323 1.15627C12.0081 1.15627 12.8802 2.02839 12.8802 3.10417C12.8802 3.43602 12.6112 3.70502 12.2794 3.70502H10.1979"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M12.8802 3.0944V4.66669C12.8802 5.7425 12.0081 6.61462 10.9323 6.61462C10.649 6.61462 10.3798 6.55416 10.137 6.44541"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M11.7344 6.4605V7.11456H11.8158C13.9541 7.11456 15.6875 8.84797 15.6875 10.9863V12.1562H12.9458"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M10.125 2.84374H7.38422C6.55072 2.84374 5.875 3.51946 5.875 4.35296V5.62421H8.67075C9.47391 5.62421 10.125 4.97311 10.125 4.16993V2.84374Z"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M9.40625 14.8438H13.1875V13.5674C13.1875 11.2348 11.2965 9.34375 8.96381 9.34375H8.875V8.63022"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M7.125 8.63022V9.34375H7.03619C4.7035 9.34375 2.8125 11.2348 2.8125 13.5674V14.8438H6.59375"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8.97605 9.35597L8.00002 10.9688L7.02399 9.35597" stroke="#FF6900"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.875 4.95809V6.67334C5.875 7.84693 6.82641 8.79834 8 8.79834C9.17359 8.79834 10.125 7.84693 10.125 6.67334V4.15834"
+                                stroke="#FF6900" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M5.92087 7.11456H5.86981V6.4605" stroke="#FF6900" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+                    <p>Audience</p>
+                    <svg class="m-1.5 text-center" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 13.2373V8.76271C9 8.01386 8.39292 7.40678 7.64407 7.40678H7.30508M7.30508 13.2712H9H10.6949M1 9C1 4.58173 4.58173 1 9 1C13.4183 1 17 4.58173 17 9C17 13.4183 13.4183 17 9 17C4.58173 17 1 13.4183 1 9Z"
+                            stroke="#464646" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <circle cx="8.66461" cy="4.66614" r="1" fill="#464646" />
+                    </svg>
+
+                    <svg class="ml-10" width="30" height="30" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 13H20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13 6L20 13L13 20" stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="flex gap-9 ml-4 items-center justify-between">
+                    <h1 class="font-size text-3xl mt-2">1.2M</h1>
+                    <svg class="mt-4 ml-2" width="104" height="28" viewBox="0 0 104 28" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M102 26.4143C102 26.4143 98.5451 20.7513 95.0898 20.7513C91.6345 20.7513 92.4023 26.4148 88.1786 26.4148C83.9549 26.4148 83.1235 24.8449 78.1965 20.7518C73.2695 16.6587 74.1008 9.66462 68.47 10.0304C62.8392 10.4046 61.5591 23.5832 55.6723 22.245C49.7856 20.9068 49.209 8.17331 44.9223 4.67071C40.6344 1.17305 42.3624 8.8384 38.5231 8.24022C34.6838 7.65058 34.3645 0.496589 29.5648 2.28673C24.765 4.07686 23.8056 13.4558 19.3267 15.3922C14.8475 17.3329 17.8523 10.1922 12.7066 10.2998C6.52638 10.4009 8.98811 4.18047 2.0332 4.67124"
+                            stroke="#5C6BC0" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="flex items-center ml-4">
+                    <svg class="mt-2" width="36" height="36" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="8" fill="#EAF3E4" />
+                        <path
+                            d="M9.63729 5.44028L10.2997 6.18554L8.05536 8.70993L6.54397 7.00882C6.50194 6.96096 6.45146 6.92287 6.39557 6.89685C6.33968 6.87083 6.27955 6.85742 6.21878 6.85742C6.15801 6.85742 6.09787 6.87083 6.04198 6.89685C5.9861 6.92287 5.93562 6.96096 5.89359 7.00882L3.13446 10.1186C3.04817 10.2168 3 10.3476 3 10.4836C3 10.6196 3.04817 10.7504 3.13446 10.8486C3.17649 10.8965 3.22697 10.9345 3.28286 10.9606C3.33875 10.9866 3.39889 11 3.45965 11C3.52042 11 3.58056 10.9866 3.63645 10.9606C3.69234 10.9345 3.74282 10.8965 3.78485 10.8486L6.21728 8.10489L7.73017 9.80818C7.7722 9.85604 7.82268 9.89413 7.87856 9.92015C7.93445 9.94617 7.99459 9.95958 8.05536 9.95958C8.11613 9.95958 8.17627 9.94617 8.23215 9.92015C8.28804 9.89413 8.33852 9.85604 8.38055 9.80818L10.9466 6.92044L11.6089 7.6657C11.6412 7.70104 11.6824 7.72504 11.7272 7.73461C11.772 7.74418 11.8185 7.73887 11.8605 7.71937C11.9026 7.69988 11.9383 7.66709 11.9631 7.62524C11.9879 7.58338 12.0007 7.53438 11.9997 7.48456V5.2586C12.0013 5.22537 11.9967 5.19212 11.9862 5.16088C11.9757 5.12964 11.9594 5.10106 11.9385 5.07687C11.9175 5.05268 11.8923 5.0334 11.8643 5.02018C11.8362 5.00697 11.8061 5.0001 11.7755 5H9.80289C9.75659 5.00116 9.71161 5.01702 9.67345 5.04563C9.63529 5.07424 9.60561 5.11436 9.58804 5.16108C9.57047 5.2078 9.56577 5.25909 9.57451 5.30868C9.58326 5.35827 9.60508 5.404 9.63729 5.44028Z"
+                            fill="#519F2E" />
+                    </svg>
+                    <p style="color: #519F2E;" class="">25%</p>
+                </div>
+            </div>
+    </header>
+
+    <main class="ml-12  p-4">
+        <div>
+            <p class="font-bold pb-1">Overview</p>
+            <p>Get an overview of how you're doing on social media compared to competitors.</p>
+        </div>
+            <table class="min-w-full ml-auto rounded-lg w-full table-auto">
+                <tbody class="border rounded-lg border-1">
+                <tr class="items-center flex p-2 border border-[bg-slate-600] rounded-t-lg justify-between">
+                    
+                        <th scope="col">
+                            <input type="checkbox" class="m-2">
+                        </th>
+                        <br>
+                        <th style="margin-left: -11rem;" class="text-left" scope="col">
+                            Account Name
+                        </th>
+                
+
+                    <div>
+                    <th scope="col" class="flex items-center gap-2 p-3 text-left">
+                        Follower
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 0.999999C4.13401 0.999999 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 0.999999Z"
+                                stroke="#464646" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8 10.9169L8 7.80576" stroke="#464646" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 5.19977L7.99 5.19977" stroke="#464646" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.218 6.812H0L5.109 0L10.218 6.812Z" fill="#464646" />
+                            <path opacity="0.5" d="M0 10.218H10.218L5.109 17.03L0 10.218Z" fill="#464646" />
+                        </svg>
+                    </th>
+                    <th scope="col" class="flex items-center gap-2 p-3 text-left ">
+                        Brand Mentions
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 0.999999C4.13401 0.999999 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 0.999999Z"
+                                stroke="#464646" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8 10.9169L8 7.80576" stroke="#464646" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 5.19977L7.99 5.19977" stroke="#464646" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </th>
+                    <th class="p-3 text-left" scope="col">
+                        Actions
+                    </th>
+                    </div>
+                </tr>
+                <tr class="flex items-center justify-between" >
+                    <div>
+                    <th class="flex p-3 bg-slate-100 items-center gap-1" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/BXYXZSdB/Screenshot-1.png" alt="">
+                        <p>Samantha</p>
+                    </div>
+                    <div style="margin-left: -7rem;" >
+                    <td>
+                        <p class="text-lg font-bold" >57,800</p>
+                      
+                        <p>0/day</p>
+                    </td>
+                    <td>
+                        <p class="text-lg font-bold">567</p>
+                        <p>0% of fans</p>
+                    </td>
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                <tr class="flex items-center justify-between" >
+                  <div>
+                    <th class="flex p-3 items-center" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/cvPCYD1K/Screenshot-2.png" alt="">
+                        <p>The Late Late Show</p>
+                    </div>
+                    <div style="margin-left: -10rem;" >
+                    <td>
+                        <p class="text-lg font-bold" >6,547</p>
+                        <p>-0.5/day</p>
+                    </td>
+
+                    <td>
+                        <p class="text-lg font-bold" >59,893</p>
+                        <p>0% of fans</p>
+                    </td>
+
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                <tr class="flex justify-between items-center" >
+                    <div>
+                    <th class="flex items-center p-3 bg-slate-100 gap-2" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/WddtdRVL/Screenshot-3.png" alt="">
+                        <p>Devon Webb</p>
+                    </div>
+                    <div style="margin-left: -8rem;">
+
+                    <td>
+                        <p class="text-lg font-bold" >99</p>
+                        <p>-0.5/day</p>
+                    </td>
+
+                    <td>
+                        <p class="text-lg font-bold" >39K</p>
+                        <p>0% of fans</p>
+                    </td>
+
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                <tr class="flex justify-between items-center" >
+                  <div>
+                    <th class="flex items-center p-3  gap-2" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/Kk2YpRMx/Screenshot-4.png" alt="">
+                        <p>Devon Webb 2</p>
+                      </div>
+                      <div style="margin-left: -9rem;" >
+                    <td>
+                        <p class="text-lg font-bold" >47,890</p>
+                        <p>-0.5/day</p>
+                    </td>
+
+                    <td>
+                        <p class="text-lg font-bold" >893</p>
+                        <p>0% of fans</p>
+                    </td>
+
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                <tr class="flex justify-between items-center">
+                  <div>
+                    <th class="flex p-3 items-center bg-slate-100 gap-2" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/9RYQ6CdT/Screenshot-5.png" alt="">
+                        <p>Samantha 2</p>
+                        </div>
+                        <div style="margin-left: -7.9rem;" >
+                    <td>
+                        <p class="text-lg font-bold" >39,893</p>
+                        <p>-0.5/day</p>
+                    </td>
+
+                    <td>
+                        <p class="text-lg font-bold" >6,547</p>
+                        <p>0% of fans</p>
+                    </td>
+
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                <tr class="flex justify-between items-center" >
+                  <div>
+                  <th class="flex p-3 items-center gap-2" scope="row">
+                        <input type="checkbox" class="m-2">
+                        <img class="w-12" src="https://i.postimg.cc/Tymwcrht/Screenshot-6.png" alt="">
+                        <p>Social Champ</p>
+                      </div>
+                      <div style="margin-left: -8rem;" >
+                    <td>
+                        <p class="text-lg font-bold" >59,893</p>
+                        <p>-0.5/day</p>
+                    </td>
+
+                    <td>
+                        <p class="text-lg font-bold" >599M</p>
+                        <p>0% of fans</p>
+                    </td>
+
+                    <td class="flex gap-1"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_63)">
+                                <path
+                                    d="M9.16699 3.33331H3.33366C2.89163 3.33331 2.46771 3.50891 2.15515 3.82147C1.84259 4.13403 1.66699 4.55795 1.66699 4.99998V16.6666C1.66699 17.1087 1.84259 17.5326 2.15515 17.8452C2.46771 18.1577 2.89163 18.3333 3.33366 18.3333H15.0003C15.4424 18.3333 15.8663 18.1577 16.1788 17.8452C16.4914 17.5326 16.667 17.1087 16.667 16.6666V10.8333"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.417 2.08332C15.7485 1.7518 16.1982 1.56555 16.667 1.56555C17.1358 1.56555 17.5855 1.7518 17.917 2.08332C18.2485 2.41484 18.4348 2.86448 18.4348 3.33332C18.4348 3.80216 18.2485 4.2518 17.917 4.58332L10.0003 12.5L6.66699 13.3333L7.50033 9.99999L15.417 2.08332Z"
+                                    stroke="#464646" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_63">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 5H4.16667H17.5" stroke="#515151" stroke-width="1.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.8337 5.00002V16.6667C15.8337 17.1087 15.6581 17.5326 15.3455 17.8452C15.0329 18.1578 14.609 18.3334 14.167 18.3334H5.83366C5.39163 18.3334 4.96771 18.1578 4.65515 17.8452C4.34259 17.5326 4.16699 17.1087 4.16699 16.6667V5.00002M6.66699 5.00002V3.33335C6.66699 2.89133 6.84259 2.4674 7.15515 2.15484C7.46771 1.84228 7.89163 1.66669 8.33366 1.66669H11.667C12.109 1.66669 12.5329 1.84228 12.8455 2.15484C13.1581 2.4674 13.3337 2.89133 13.3337 3.33335V5.00002"
+                                stroke="#515151" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.33301 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.667 9.16669V14.1667" stroke="#515151" stroke-width="1.25"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </td>
+                    </div>
+                    </th>
+                </tr>
+                    
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+    </main>
+
+</body>
+
+</html>
